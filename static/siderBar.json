@@ -1,0 +1,87 @@
+[
+  {
+    "title": "基础UI",
+    "subItem": [
+      {
+        "url": "layout",
+        "name": "布局"
+      },
+      {
+        "url": "color",
+        "name": "色彩"
+      },
+      {
+        "url": "button",
+        "name": "按钮"
+      }
+    ]
+  },
+  {
+    "title": "表格",
+    "subItem": [
+      {
+        "url": "basetable",
+        "name": "基础表格"
+      },
+      {
+        "url": "vuetable",
+        "name": "vue表格"
+      }
+    ]
+  },
+  {
+    "title": "表单",
+    "subItem": [
+      {
+        "url": "baseform",
+        "name": "基础表单"
+      },
+      {
+        "url": "vueeditor",
+        "name": "编辑器"
+      },
+      {
+        "url": "markdown",
+        "name": "markdown"
+      },
+      {
+        "url": "upload",
+        "name": "文件上传"
+      }
+    ]
+  },
+  {
+    "title": "图标",
+    "subItem": [
+      {
+        "url": "basecharts",
+        "name": "基础图标"
+      },
+      {
+        "url": "mixcharts",
+        "name": "混合图标"
+      }
+    ]
+  },
+  {
+    "title": "控件交互",
+    "subItem": [
+      {
+        "url": "alert",
+        "name": "弹出框"
+      },
+      {
+        "url": "loading",
+        "name": "loading加载"
+      },
+      {
+        "url": "message",
+        "name": "消息提示"
+      },
+      {
+        "url": "dialog",
+        "name": "对话框"
+      }
+    ]
+  }
+]

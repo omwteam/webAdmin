@@ -1,4 +1,4 @@
-# manage-system #
+# webAdmin #
 基于Vue.js 2.x系列 + Element UI 的后台管理系统解决方案。[线上地址](http://work.omwteam.com/)
 
 
@@ -10,8 +10,10 @@
 ## 功能 ##
 - [x] Element UI
 - [x] 登录/注销
+- [x] 基础UI布局
 - [x] 表格
 - [x] 表单
+- [x] 控件交互 一 弹窗提示
 - [x] 图表 :bar_chart:
 - [x] 富文本编辑器
 - [x] markdown编辑器
@@ -52,8 +54,8 @@
 
 ## 安装步骤 ##
 
-	git clone https://github.com/lin-xin/manage-system.git		// 把模板下载到本地
-	cd manage-system											// 进入模板目录
+	git clone https://github.com/lin-xin/webAdmin.git		// 把模板下载到本地
+	cd webAdmin											// 进入模板目录
 	npm install													// 安装项目依赖，等待安装完成之后
 
 ## 本地开发 ##

@@ -48,7 +48,36 @@ export default new Router({
                 {
                     path: '/mixcharts',
                     component: resolve => require(['../components/page/MixCharts.vue'], resolve)    // vue-echarts-v3组件
-                }
+                },
+				{
+					path: '/layout',
+					component: resolve => require(['../components/page/layout.vue'], resolve)    // message弹出框组件
+				},
+				{
+					path: '/color',
+					component: resolve => require(['../components/page/color.vue'], resolve)    // message弹出框组件
+				},
+				{
+					path: '/button',
+					component: resolve => require(['../components/page/button.vue'], resolve)    // message弹出框组件
+				},
+				{
+					path: '/alert',
+					component: resolve => require(['../components/page/alert.vue'], resolve)    // message弹出框组件
+				},
+				{
+					path: '/loading',
+					component: resolve => require(['../components/page/loading.vue'], resolve)    // message弹出框组件
+				},
+				{
+					path: '/message',
+					component: resolve => require(['../components/page/messageBox.vue'], resolve)    // message弹出框组件
+				},
+				{
+					path: '/dialog',
+					component: resolve => require(['../components/page/dialog.vue'], resolve)    // message弹出框组件
+				}
+
             ]
         },
         {

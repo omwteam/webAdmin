@@ -24,6 +24,7 @@
         data: function(){
             const self = this;
             return {
+                url: './static/datasource.json',
                 information: {
                     pagination:{},
                     data:[]
@@ -42,8 +43,8 @@
                         key: 'email',
                     },
                     {
-                        name: 'company',
-                        key: 'company',
+                        name: 'ip',
+                        key: 'ip',
                     }
                 ],
                 actions: [
@@ -81,7 +82,10 @@
             }
         },
         beforeMount(){
-            axios.get('/static/data.json').then( (res) => {
+            if(process.env.NODE_ENV === 'development'){
+                this.url = '/ms/table/source';
+            };
+            axios.get(this.url).then( (res) => {
                 this.information = res.data;
             })
         }

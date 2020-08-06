@@ -10,7 +10,7 @@
     "build:dll": "webpack --config build/webpack.dll.conf.js"
   },
   "dependencies": {
-    "axios": "^0.15.3",
+    "axios": "^0.19.2",
     "babel-polyfill": "^6.23.0",
     "element-ui": "1.3.1",
     "vue": "^2.3.2",
